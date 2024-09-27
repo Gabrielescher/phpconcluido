@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Componentes - php comSQ MyL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+       <h4 class="text-danger text-center">CADASTRO DE COMPONENTES - INSERÇÃO DE DADOS</h4>                             
+       <form name="iddisciplina" method="post" action="Inserir.php">
+        <table width="600">
+            <tr>
+                <td><label>Nome da Disciplina</label> </td>
+                <td><input type="text" name="iddisciplina" size="50" maxlength="80" placeholder="Informe o nome da disciplina"required> </td>
+
+               
+            </tr>
+            <tr>
+                <td><label>Descricao</label> </td>
+                <td><input type="text" name="descricao" size="50" maxlength="100"  required></td>
+            </tr>
+            <tr>
+                <td><label>Nome</label> </td>
+                <td><input type="text" name="nome" size="50" maxlength="100"  required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="inserir" value="inserir" class="btn btn-primary" ></td>
+
+            </tr>
+
+        </table>
+       </form>
+    </div>
+    </body>
+</html>
